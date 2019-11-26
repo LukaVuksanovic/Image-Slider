@@ -1,0 +1,96 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 620px ;
+  height: 480px;
+  overflow-x: hidden;
+}
+
+h1,body  {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: teal;
+}
+
+.wrap {
+  position: relative;;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+
+.slide1 {
+    background-image: url(images/slider-image-1.jpg);
+}
+
+.slide2 {
+    background-image: url(images/slider-image-2.jpg);
+}
+
+.slide3 {
+    background-image: url(images/slider-image-3.jpg);
+}
+
+.slide4 {
+    background-image: url(images/slider-image-4.jpg);
+}
+
+.slide5 {
+    background-image: url(images/slider-image-5.jpg);
+}
+
+.slide6 {
+    background-image: url(images/slider-image-6.jpg);
+}
+
+.slide7 {
+    background-image: url(images/slider-image-7.jpg);
+}
+
+.slide8 {
+    background-image: url(images/slider-image-8.jpg);
+}
+
+.slide9 {
+    background-image: url(images/slider-image-9.jpg);
+}
+.slide-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+  }
+  
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  #arrow-left {
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+  }
+  
+  #arrow-right {
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 30px;
+  }
